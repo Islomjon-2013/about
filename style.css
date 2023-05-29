@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-content {
+  display: none;
+}
+.active {
+  display: block;
+}
