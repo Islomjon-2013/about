@@ -13,3 +13,27 @@ img {
 .active {
   display: block;
 }
+
+@media (max-width: 575.98px) {
+  .about-img img {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .about {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-img img {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .about {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
